@@ -1,0 +1,11 @@
+Plaintext
+# Folder dependensi Node.js
+node_modules/
+
+# File log dan debug
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Folder data autentikasi Baileys
+auth_info_baileys/
