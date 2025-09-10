@@ -1,11 +1,57 @@
-Plaintext
-# Folder dependensi Node.js
+# ==============================
+# Node.js Standard Ignore
+# ==============================
+
+# Dependencies
 node_modules/
 
-# File log dan debug
-npm-debug.log
-yarn-debug.log
-yarn-error.log
+# Optional npm cache directory
+.npm
 
-# Folder data autentikasi Baileys
+# Optional eslint cache
+.eslintcache
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ==============================
+# Baileys / WhatsApp Bot Ignore
+# ==============================
+
+# Session & authentication data (jangan diupload ke git)
 auth_info_baileys/
+
+# Cache sementara
+.tmp
+temp/
+
+# ==============================
+# Environment & Config
+# ==============================
+
+# Environment variables (jangan dishare)
+.env
+.env.test
+.env.production
+
+# ==============================
+# OS & Editor Files
+# ==============================
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+.history/
