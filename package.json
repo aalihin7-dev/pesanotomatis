@@ -4,8 +4,9 @@
   "description": "WhatsApp Chatbot using Baileys",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
+  "start": "node index.js",
+  "autocommit": "git add . && git commit -m \"Auto commit %date% %time%\" && git push"
+},
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.5",
     "pino": "^8.15.0",
